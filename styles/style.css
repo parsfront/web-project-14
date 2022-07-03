@@ -9,10 +9,19 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    overflow-x: hidden;
+}
+
+::placeholder {
+    color: #cacaca;
 }
 
 body {
+    direction: rtl;
+    font-family: "vazir";
+}
+
+input,
+button {
     font-family: "vazir";
 }
 
@@ -100,6 +109,49 @@ body {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     padding: 10px;
+}
+
+.register-page .register h5 {
+    color: #777;
+    margin: 20px 0;
+}
+
+.register-page .register form {
+    width: 45%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.register-page .register form .form-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+    color: #cacaca;
+}
+
+.register-page .register form .form-item input {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    outline: none;
+}
+
+.register-page .register form input[type="submit"] {
+    padding: 10px;
+    width: 45%;
+    border: none;
+    background: #3bb397;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-top: 20px;
 }
 
 .register-page .auth-login {
