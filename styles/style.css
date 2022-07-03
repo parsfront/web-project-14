@@ -185,13 +185,6 @@ button {
     -o-border-radius: 25px 0 0 25px;
 }
 
-.register-page .auth-login img {
-    width: 100px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
 .register-page .auth-login .login-content {
     color: #fff;
     text-align: center;
