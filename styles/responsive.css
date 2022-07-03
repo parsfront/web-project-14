@@ -1,0 +1,47 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .register-page .register ul {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .register-page .auth-login {
+        display: none;
+    }
+
+    .register-page .register {
+        width: 100%;
+    }
+
+    .register-page .register {
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .register-page .register ul {
+        width: 35%;
+    }
+
+    .register-page .register form {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .register-page .register ul {
+        width: 50%;
+    }
+
+    .register-page .register form {
+        width: 85%;
+    }
+}
